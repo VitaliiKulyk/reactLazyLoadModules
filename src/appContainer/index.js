@@ -19,7 +19,7 @@ class AppContainer extends React.Component {
 				lazy module
 				<button onClick={this.lazyLoad}>Load</button>
 				<button onClick={() => this.goToModule(1)}>Load 1</button>
-				<button onClick={() => this.goToModule(1)}>Load 2</button>
+				<button onClick={() => this.goToModule(2)}>Load 2</button>
 			</div>
 		);
 	}
